@@ -38,8 +38,8 @@ export function CategoryList() {
   
   return (
     <div className="w-full py-4 border-b">
-      <ScrollArea className="w-full" orientation="horizontal">
-        <div className="flex space-x-2 px-4 min-w-max">
+      <ScrollArea className="w-full">
+        <div className="flex space-x-2 px-4 min-w-max pb-4">
           {categories.map((category) => {
             const Icon = category.icon;
             return (
